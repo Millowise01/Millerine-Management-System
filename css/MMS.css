@@ -1,0 +1,39 @@
+body#loginBody{
+	background: url('https://1drv.ms/i/s!Arf6JaEk8sBNhak1smJ7uZJrJJ088Q?e=cXeyau') no-repeat center center fixed;
+	background-size: cover;
+}
+body{	
+	font-family: arial;
+}
+
+
+div.loginHeader{
+	text-align: center;
+}
+.alignLeft{
+	text-align: left;
+}
+div.loginHeader{
+	margin-bottom: 150px;
+}
+div.loginHeader h1{
+	font-size: 100px;
+	color:#f685a2;
+	padding:0px;
+	margin:0px;
+}
+div.loginHeader p{
+	color:#ffdae3;
+	font-size: 50px;
+	margin:0px;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+div.loginHeader p:after{
+	content:'';
+	display: block;
+	height: 5px;
+	background: #f685a2;
+	margin:0 auto;
+}
